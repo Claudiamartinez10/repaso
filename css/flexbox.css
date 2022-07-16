@@ -1,0 +1,97 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div img {
+    width: 30%;
+    border: 5px solid #0000;
+    margin: 15px;
+}
+
+::selection {
+    color: rgb(255, 47, 0);
+    background: black;
+}
+
+.caja {
+    width: 500px;
+    border: 7px solid red;
+    display: flex;
+    gap: 15px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+
+}
+
+p {
+    width: 30%;
+    padding: 10px;
+    text-align: justify;
+}
+
+header {
+    background-color: deeppink;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    background-color: bisque;
+    display: flex;
+}
+
+.menu {
+    background-color: khaki;
+    flex: 20%;
+    padding: 20px;
+    border: 5px solid #f7f7f7;
+
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+    padding: 5px;
+    border-bottom: 5px solid black;
+}
+
+.contenido {
+    background-color: rgb(98, 222, 203);
+    flex: 60%;
+}
+
+footer {
+    background-color: rgb(20, 55, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer div ul li {
+    display: inline-flex;
+    background-color: rgb(94, 108, 170);
+    color: white;
+    text-decoration: none;
+    border-style: dotted;
+}
+
+.formulario {
+    justify-content: center;
+    border-style: double;
+    background-color: darkslateblue;
+    color: black;
+
+}
